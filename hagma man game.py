@@ -2,8 +2,8 @@ import random
 word_list = ["apple", "beautiful", "potato"]
 lives = 6
 chosen_word = random.choice(word_list).lower()
-print(chosen_word)
 display = ['_' if letter != ' ' else ' ' for letter in chosen_word]
+print(display)
 
 hangman_stages = [
     """
